@@ -13,6 +13,7 @@ Our end goal is to showcase the project in a final event where you can present y
 In this branch, among the changes made from the first ever version of the game, there are:
 - Before starting the game, you have to write your name, and your score is shown in the top right of the screen. After you lose, your name and score gets stored in a json file so it can be used or shown later. At the same time, your name and score gets printed in the terminal whenever you die as well.
 - Now, if you go you go out of bounds, you get teleported to the other side of the board.
+- In a range of five apples, the snake direction gets switched everytime it eats an apple.
 - Bug fixes include that now apples do not spawn in your body, and you don't kill yourself by moving more than once per frame, since the snake only moves once per frame.
 
 **Tima** <br />
